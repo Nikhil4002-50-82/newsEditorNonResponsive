@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e3ddddba;
+    font-family: sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.header{
+    background-color: white;
+    margin: 0 0 0 0;
+    text-align: center;
+    padding: 0.7rem;
+}
+.header h6{
+    padding-top: 1.2rem;
+}
+.card{
+    margin: 1rem 0.5rem;
+    background-color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.card h3{
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 0;
+}
+.card p{
+    font-size: small;
+    padding: 1rem;
+}
+.card img{
+    width: 100%;
+    height: 20rem;
+    padding: 0;
+}
+.one{
+    grid-column: span 2;
+}
+.one img{
+    height: 35rem;
+}
+.two{
+    width: auto;
+}
+.three{
+    width: auto;  
+}
+.four{
+    grid-column: span 2;
+}
+.five{
+    grid-column: span 2;
+    display: flex; 
+}
+.five img{
+    height: 14rem;
+}
+.six{
+    grid-column: span 2; 
+}
+.main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.sidebar .card{
+    padding: 0.5rem;
+
+}
+.sidebar .card h3{
+    padding: 0.5rem;
+}
+.sidebar .card p{
+    padding: 0.5rem;
+}
+.sidebar .card img{
+    width: 95%;
+    height: 12rem;
+    padding: 0 0.5rem;
+}
+.footer{
+    height: 12rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+.footer .links h4{
+    padding: 1.2rem 0;
+}
+.footer .links ul{
+    list-style: none;
+}
+.footer .links a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    padding: 4rem 0;
+    font-size: small;
+}
